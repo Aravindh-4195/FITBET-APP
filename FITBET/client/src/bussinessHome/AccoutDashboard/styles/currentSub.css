@@ -1,0 +1,48 @@
+.userOrderContainer {
+  /* width: 70vw; */
+  height: 30vh;
+  width: 60vw;
+  background-color: rgb(151, 203, 235);
+  margin: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
+/* .userOrderContainer:hover {
+  width: 1px;
+} */
+#title {
+  color: white;
+}
+.order-image {
+  width: 100%;
+  height: 100%;
+}
+.orderDetails {
+  width: 35%;
+  height: 90%;
+  text-align: left;
+  /* background-color: blue; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: bold; */
+}
+.centerName {
+  font-weight: bold;
+
+  font-size: 1.5vw;
+}
+.location {
+  font-size: 1.2vw;
+}
+.bookedInfo {
+  width: 35%;
+  height: 90%;
+  /* background-color: blue; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.orderTimeStamp {
+  font-weight: bold;
+  font-size: 1.5vw;
+}

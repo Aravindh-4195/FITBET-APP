@@ -1,0 +1,62 @@
+#start-trainer{
+  padding:25vh;
+  width:93%;
+  height:50vh;
+}
+.trainer_main{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+   
+}
+.trainer_header{
+  
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+ 
+    
+}
+.trainer_h2{
+  font-family:arial;
+  color:rgb(151, 203, 235);
+  font-size: 2.8rem;
+  text-align: left;
+  line-height: 1rem;
+  
+}
+.trainer_span{
+    color:rgb(151, 223, 180);
+    font-size: 4rem;
+}
+.trainer_p{
+  font-family:arial;
+    color:rgb(151, 203, 235);
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    max-width: 80%;
+    line-height: 1.5rem;
+}
+.trainer_image {
+    height:60rem;
+    width: 60rem;
+    background-image: url("../assets/1234.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.trainer_btn{
+    background-color:rgb(151, 203, 235);
+    text-align: center;
+  }
+  .trainer_btn:hover{
+    background-color: black;
+    border:1px solid rgb(151, 203, 235) ;
+    color:rgb(151, 203, 235);
+  }
+  .trainer_button{
+    width:80%;
+   
+  }

@@ -1,0 +1,12 @@
+.contactItems {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.499);
+  width: 100%;
+  font-size: 2vw;
+  padding: 1.5vw;
+  color: rgba(0, 0, 0, 0.416);
+  /* background-color: rgb(151, 203, 235); */
+  border-radius: 15px;
+}
+.contactItems span {
+  color: black;
+}

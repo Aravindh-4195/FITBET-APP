@@ -1,0 +1,117 @@
+#BMI {
+  height: 90vh;
+  /* width: 80.2vw; */
+  z-index: 1;
+  padding-top: 20vh;
+}
+.bmi-section {
+  background-color: #222;
+  padding: 3rem 0;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  color: #fff;
+  width: 100%;
+  max-width: 52rem;
+  position: relative;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.highlighted-text {
+  color: rgba(251, 228, 17, 255);
+}
+
+.description {
+  text-align: left;
+  font-size: 16px;
+  color: rgba(255, 255, 0, 0.866);
+  margin-bottom: 25px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.input-field {
+  width: 100%;
+  background-color: black;
+  font-size: 14px;
+  border: 2px solid #ffffff7d;
+  padding-left: 16px;
+  color: rgba(251, 228, 17, 255);
+}
+
+.output-container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.output-text {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: medium;
+}
+
+.output-label {
+  font-weight: bold;
+}
+
+.output-value {
+  color: #ff0336;
+}
+
+.calculate-btn {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: rgba(251, 228, 17, 255);
+  width: 160px;
+  height: 5opx;
+  transition: all 0.3s;
+}
+
+.calculate-btn:hover {
+  background-color: black;
+  color: yellow;
+}
+.bmi-img {
+  margin-left: 40px;
+  height: 600px;
+  width: 600px;
+  background: url("../assets/bmi.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

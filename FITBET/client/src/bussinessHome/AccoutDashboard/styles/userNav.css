@@ -1,0 +1,32 @@
+#bussinessNav {
+  background-color: rgb(151, 203, 235);
+  width: 30vw;
+  height: 90vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navUserItem {
+  width: 30vw;
+  height: 10vh;
+  /* background-color: black; */
+  margin: 1px;
+  text-align: center;
+  text-decoration: none;
+  border: "1px solid black";
+}
+
+.userImg {
+  width: 10vw;
+  height: 10vw;
+  margin: 5vh;
+
+  /* background-image: url("C:/sampleproject/src/bussinessHome/assets/1234.png"); */
+  /* background-image: url("C:/sampleproject/src/components/trainer/uploads/1712492712930IMG-20240328-WA0020.jpg"); */
+  border-radius: 50%;
+  /* background-color: red; */
+}

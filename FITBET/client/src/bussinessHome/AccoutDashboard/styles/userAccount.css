@@ -1,0 +1,125 @@
+select,
+input {
+  background-color: rgba(44, 47, 50, 255);
+  color: grey;
+  font-family: monospace;
+  font-weight: bold;
+}
+.gymRegistration,
+.trainerRegistration {
+  font-family: monospace;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  color: rgb(151, 203, 235);
+  background-color: black;
+  width: 60vw;
+  padding: 5vw;
+  display: flex;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* height: 100vh; */
+}
+
+#registration-form {
+  padding: 0px;
+  border-radius: 10px;
+  align-items: center;
+  /* width: 50%; */
+}
+
+.gymFieldset,
+.trainerField {
+  border: 3px solid #64d558;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 50vw;
+  color: rgb(151, 203, 235);
+}
+
+.gymLegend,
+.trainerLegend {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: left;
+  color: rgb(151, 203, 235);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 20px;
+  color: rgb(151, 203, 235);
+}
+
+.label-box {
+  width: 200px;
+  text-align: left;
+  font-size: large;
+  /* margin-right: 10px; */
+}
+
+.label-box select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+.row input[type="text"],
+.row input[type="email"],
+.row input[type="tel"],
+.row input[type="number"],
+.row input[type="date"],
+.row input[type="file"],
+.row select,
+.row input[type="url"],
+.row textarea,
+.row input[type="password"] {
+  flex: 1;
+  padding: 10px;
+  margin: 0;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* background-color: white; */
+  border: none;
+  background-color: black;
+  color: grey;
+  gap: 100px;
+}
+
+.gymBtn {
+  font-family: monospace;
+  background-color: rgb(151, 203, 235);
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+}
+
+.gymBtn:hover {
+  background-color: black;
+  color: rgb(151, 203, 235);
+  border: 2px solid rgb(151, 203, 235);
+}
+
+#Preference,
+#gender {
+  /* width: 45%; */
+  height: 35px;
+  border-radius: 5px;
+}

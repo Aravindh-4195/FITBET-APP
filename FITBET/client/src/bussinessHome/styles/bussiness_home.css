@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+.buss_main {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  text-align: left;
+}
+.bussiness_header {
+  margin-top: 20vh;
+  
+}
+.buss_h1 {
+  font-family:arial;
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(151, 203, 235);
+}
+.buss_h2 {
+  font-family:arial;
+  margin-top: 30px;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: rgb(151, 203, 235);
+}
+.buss_span {
+  color: rgb(151, 223, 180);
+  font-size: 7rem;
+}
+.image {
+  margin: 120px;
+  margin-right: 45px;
+  height: 500px;
+  width: 500px;
+  /* background-image: url("../assets/home.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+}

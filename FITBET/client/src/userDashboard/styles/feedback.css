@@ -1,0 +1,50 @@
+#feedbackBackground {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: monospace;
+}
+.feedbackContainer {
+  width: 50%;
+  height: 55%;
+  /* background-color: red; */
+}
+.feedbackContainer fieldset {
+  width: 90%;
+  height: 90%;
+}
+.feedbackInput label {
+  font-size: 1vw;
+  margin: 1px;
+}
+.feedbackInput input,
+.feedbackInput textarea {
+  background-color: black;
+  border: none;
+}
+.feedbackContainer input[type="submit"] {
+  background-color: gold;
+  color: black;
+  border: none;
+  width: 30%;
+  height: 15%;
+  border-radius: 5px;
+}
+.feedbackContainer input[type="submit"]:hover {
+  background-color: black;
+  border: 2px solid gold;
+  color: gold;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.feedbackContainer input[type="number"] {
+  width: 100%;
+}

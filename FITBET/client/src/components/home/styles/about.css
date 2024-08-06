@@ -1,0 +1,39 @@
+.para {
+  float: right;
+  padding-top: 80px;
+  padding-right: 30px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  max-width: 50%;
+}
+
+.aboutimage {
+  padding: 30px;
+
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+  background: url("../assets/gym.avif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.span_about {
+  color: rgb(223, 103, 55);
+}
+#main_about {
+  background-color: rgba(251, 228, 17, 255);
+  height: 96%;
+}
+#about {
+  height: 98%;
+
+  border-radius: 5px;
+  /* margin: 15px 0; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-top: 10vh; */
+  /* width: 103%; */
+}

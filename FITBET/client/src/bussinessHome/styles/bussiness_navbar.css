@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+#buss_nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  border-radius: 5px;
+}
+.buss_navBar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(151, 203, 235);
+}
+.buss_nav_item.account {
+  width: 4vw;
+}
+.buss_nav_item {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 20px; */
+  text-decoration: none;
+  /* color: rgba(251, 228, 17, 255); */
+  font-weight: bold;
+  font-size: 1rem;
+  /* margin-bottom: 25px; */
+  /* margin-right: 40px; */
+  background-color: black;
+  height: 7vh;
+  width: 10vw;
+  color: rgb(151, 203, 235);
+  border-radius: 5px;
+  /* padding-top: 10px; */
+  font-family: monospace;
+}

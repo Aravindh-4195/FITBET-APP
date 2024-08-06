@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: 1px;
+  scrollbar-color: rgba(251, 228, 17, 255) black;
+}
+#main_block {
+  width: 94.5vw;
+  padding: 0;
+}

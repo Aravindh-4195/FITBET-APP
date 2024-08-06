@@ -1,0 +1,33 @@
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+.userDash {
+  display: flex;
+  width: 98vw;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  /* background-color: red; */
+}
+.userNav {
+  position: fixed;
+}
+.userPart {
+  display: flex;
+  width: 98vw;
+  /* background-color: blue; */
+  justify-content: flex-end;
+}
+.contact {
+  height: 50vh;
+  margin: 10vh;
+}
+.getItems {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blue;
+  /* color: rgba(0, 0, 255, 0.123); */
+  /* height: 100vh; */
+}

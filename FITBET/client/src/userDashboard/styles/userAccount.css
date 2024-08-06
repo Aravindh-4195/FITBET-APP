@@ -1,0 +1,117 @@
+select,
+input {
+  background-color: rgba(44, 47, 50, 255);
+  color: grey;
+  font-family: monospace;
+  font-weight: bold;
+}
+#userDashAccount {
+  font-family: Arial, Helvetica, sans-serif;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  color: gold;
+  background-color: black;
+
+  padding: 5vw 0 5vw 5vw;
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* height: 100vh; */
+}
+
+#registrationForm {
+  padding: 0px;
+  width: 60vw;
+  border-radius: 10px;
+  align-items: center;
+  /* width: 50%; */
+}
+
+.user_fieldset {
+  border: 3px solid #d55858;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 50vw;
+  color: gold;
+}
+
+.user_legend {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: left;
+  color: gold;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.label-box {
+  width: 200px;
+  text-align: left;
+  font-size: large;
+  /* margin-right: 10px; */
+}
+
+.label-box select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+select,
+input[type="url"],
+input[type="password"],
+textarea {
+  flex: 1;
+  padding: 10px;
+  margin: 0;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  gap: 100px;
+}
+
+.btn {
+  font-family: monospace;
+  background-color: rgba(255, 217, 0, 0.749);
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+#gender {
+  /* width: 45%; */
+  height: 35px;
+  border-radius: 5px;
+}

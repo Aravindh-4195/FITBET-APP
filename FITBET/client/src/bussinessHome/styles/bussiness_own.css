@@ -1,0 +1,62 @@
+#own{
+  padding:25vh;
+  width:94%;
+  height:45vh;
+}
+.own_allmain{
+  
+  background-color:rgb(151, 203, 235);
+  height:50vh;
+  
+}
+.own_main{
+     margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+    line-height:1.4rem;
+    
+}
+.own_h2{
+  font-family:arial;
+  color:black;
+  font-size: 3.5rem;
+  text-align: left;
+}
+.own_span{
+    color:rgb(151, 223, 180);
+    font-size: 5.5rem;
+}
+.own_p{
+  font-family:arial;
+    color:black;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+}
+.own_image {
+  margin-top:40px;
+    height:70vh;
+    width: 70vh;
+    background-image: url("../assets/own.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+.own_btn{
+    background-color:black;
+    text-align: center;
+    width:60vh;
+    color:rgb(151, 203, 235)
+    
+  }
+  .own_btn:hover{
+    background-color: rgb(151, 203, 235);
+    border:1px solid  black;
+    color:black;
+  }
+  .own_button{
+    margin-top: 30px;
+    
+    display: flex;
+  }

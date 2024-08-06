@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+.gym_main {
+  display: flex;
+  margin: 20px;
+  background-color: rgba(20, 22, 28, 255);
+  justify-content: center;
+  height: 94vh;
+  width: 96vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.gym_item {
+  /* background-color: rgba(20, 22, 28, 255); */
+  height: 93vh;
+  width: 48vw;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 5px; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* padding: 25px; */
+}
+#gym_details {
+  width: 40vw;
+  padding-left: 5vw;
+  color: rgb(222, 220, 220);
+}
+#gymImg {
+  height: 80%;
+  width: 100%;
+  border-radius: 15px;
+}
+#centerName {
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+#gym_address {
+  border-bottom: solid 1px rgb(50, 49, 49);
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+}
+.address_item {
+  height: 100%;
+}
+#item1 {
+  width: 75%;
+  /* color: rgb(65, 65, 65); */
+  /* color: #292929; */
+}
+#subadd {
+  color: grey;
+}
+#link {
+  text-decoration: none;
+  color: rgba(251, 228, 17, 255);
+}
+#gym_timing {
+  border-bottom: solid 1px rgb(50, 49, 49);
+  cursor: pointer;
+}
+#commentSection {
+  max-height: 300px;
+  overflow-y: auto;
+}
+tr p {
+  margin: 0;
+}
+
+.gym_contact {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: solid 1px rgb(50, 49, 49);
+}
+.contact_item {
+  height: 100%;
+  cursor: pointer;
+}
+.contact_item h3 {
+  color: rgba(251, 228, 17, 255);
+}
+.con_item {
+  width: 75%;
+  color: grey;
+  font-weight: bold;
+}
+.gymCenterBtn {
+  background-color: rgba(251, 228, 17, 255);
+  text-decoration: none;
+  width: 100%;
+}
+
+.gymCenterBtn:hover {
+  background-color: black;
+  border: 2px solid rgba(251, 228, 17, 255);
+  color: rgba(251, 228, 17, 255);
+}
+@media screen and (max-width: 800px) {
+  .gym_main {
+    flex-direction: column;
+  }
+  .gym_item {
+    width: 98%;
+  }
+  #gym_details {
+    width: 94%;
+    font-size: 50%;
+  }
+}

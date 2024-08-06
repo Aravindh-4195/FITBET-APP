@@ -1,0 +1,92 @@
+.why_main{
+
+  width: 100%;
+  height:90vh;
+  
+}
+.why_h1{
+  padding:7vh;
+  font-family:arial;
+    color:rgb(151, 203, 235);
+    font-size: 4rem;
+
+}
+.why_span{
+    color:rgb(151, 223, 180);
+    font-size: 5rem;
+  }
+  .why_h3{
+    font-family:arial;
+    font-size: 1.5rem;
+    color:rgb(151, 203, 235);
+  }
+  .why_p{
+    font-family:arial;
+    font-size: 1.2rem;
+    color:rgb(151, 203, 235);
+  }
+  .why_about{
+    /* display: flex;
+    flex-direction: row; */
+    width:100%;
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height:1rem;
+
+  }
+  .why_about1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap:20px;
+    line-height:0rem;
+  }
+  .why_image1{
+    height:80px;
+    width: 80px;
+    border-radius:20%;
+    background-image: url("../assets/crown.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .why_image2{
+    height:80px;
+    width: 80px;
+    border-radius:20%;
+    background-image: url("../assets/roi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .why_image3{
+    height:80px;
+    width: 80px;
+    border-radius:20%;
+    background-image: url("../assets/customer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .why_image4{
+    height:80px;
+    width: 80px;
+    border-radius:20%;
+    background-image: url("../assets/tech.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .why_btn{
+    width:80vh;
+    background-color:rgb(151, 203, 235);
+    text-align: center;
+  }
+  .why_btn:hover{
+    background-color: black;
+    border:1px solid rgb(151, 203, 235) ;
+    color:rgb(151, 203, 235);
+  }
+  .why_button{
+    
+    display: flex;
+  }
