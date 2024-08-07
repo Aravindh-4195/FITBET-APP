@@ -38,7 +38,7 @@ function NavBarGym() {
   };
   return (
     <div id="bussinessNav">
-      <div className="userImg">
+{/*       <div className="userImg">
         {profile === "gym" ? (
           <FaRegCircleUser style={{ width: " 10vw", height: "10vw" }} />
         ) : pic === "" ? (
@@ -51,7 +51,7 @@ function NavBarGym() {
 />
 
         )}
-      </div>
+      </div> */}
       <a
         href={
           localStorage.getItem("profile") === "gym"
