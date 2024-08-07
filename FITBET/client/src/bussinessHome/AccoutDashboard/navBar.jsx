@@ -45,7 +45,7 @@ function NavBarGym() {
           ""
         ) : (
           <img
-    src={require(`../../../components/trainer/uploads/${pic}`)}
+    src={require(`FITBET/client/src/components/trainer/uploads/${pic}`)}
     alt="profile-pic"
     style={{ width: "10vw", height: "10vw", borderRadius: "50%" }}
 />
