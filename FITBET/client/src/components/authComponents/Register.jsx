@@ -32,7 +32,7 @@ function Register() {
     if (formData.password === formData.confirmPassword) {
       try {
         await axios
-          .post("http://localhost:8000/register", formData)
+          .post("https://fitbet-app-api.vercel.app/register", formData)
           .then((res) => {
             // alert(res.data);
             if (res.data === "ok") {

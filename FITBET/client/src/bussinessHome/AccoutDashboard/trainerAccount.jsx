@@ -46,7 +46,7 @@ function TrainerAccount() {
   const handleOnload = async () => {
     try {
       const data = await axios.post(
-        "http://localhost:8000/bussiness/trainer/AccountDetails",
+        "https://fitbet-app-api.vercel.app/bussiness/trainer/AccountDetails",
         {
           user_id: user_id,
         }
@@ -89,7 +89,7 @@ function TrainerAccount() {
     console.log(formData);
     try {
       await axios
-        .post("http://localhost:8000/trainer/trainerReg", formData, {
+        .post("https://fitbet-app-api.vercel.app/trainer/trainerReg", formData, {
           headers: { "Content-Type": "multipart/form-data" },
         })
         .then((res) => {

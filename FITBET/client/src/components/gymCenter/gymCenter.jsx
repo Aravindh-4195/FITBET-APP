@@ -24,7 +24,7 @@ function Gym(props) {
     console.log(review_data);
     try {
       const result = await axios.post(
-        "http://localhost:8000/gym/reviews",
+        "https://fitbet-app-api.vercel.app/gym/reviews",
         review_data
       );
       setReviews(result.data.data);
@@ -51,7 +51,7 @@ function Gym(props) {
     try {
       await axios
         .post(
-          "http://localhost:8000/gym/gymCenter",
+          "https://fitbet-app-api.vercel.app/gym/gymCenter",
 
           data_sent
         )

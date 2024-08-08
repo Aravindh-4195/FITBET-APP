@@ -25,7 +25,7 @@ function NavBarGym() {
   });
   const handleOnLoad = async () => {
     try {
-      const result = await axios.post("http://localhost:8000/bussiness/user", {
+      const result = await axios.post("https://fitbet-app-api.vercel.app/bussiness/user", {
         phone: localStorage.getItem("user_id"),
         // profile: localStorage.getItem("profile"),
       });

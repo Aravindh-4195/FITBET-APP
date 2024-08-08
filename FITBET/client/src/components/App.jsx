@@ -17,7 +17,7 @@ function App() {
 
     try {
       await axios
-        .post("http://localhost:8000/upload", formData, {
+        .post("https://fitbet-app-api.vercel.app/upload", formData, {
           headers: { "Content-Type": "multipart/form-data" },
         })
         .then((res) => {

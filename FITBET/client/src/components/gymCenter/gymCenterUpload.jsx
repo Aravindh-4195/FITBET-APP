@@ -38,7 +38,7 @@ function GymForm() {
     // console.log(formData);
     try {
       await axios
-        .post("http://localhost:8000/gym/registerGym", formData, {
+        .post("https://fitbet-app-api.vercel.app/gym/registerGym", formData, {
           headers: { "Content-Type": "multipart/form-data" },
         })
         .then((res) => {

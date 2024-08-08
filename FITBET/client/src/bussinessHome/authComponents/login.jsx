@@ -15,7 +15,7 @@ function BussinessLogin() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/bussiness/login",
+        "https://fitbet-app-api.vercel.app/bussiness/login",
         formData
       );
       console.log(res.data.data);

@@ -23,7 +23,7 @@ function Trainer(props) {
     try {
       await axios
         .post(
-          "http://localhost:8000/trainer/trainer",
+          "https://fitbet-app-api.vercel.app/trainer/trainer",
 
           data_sent
         )

@@ -57,7 +57,7 @@ function TrainerForm() {
     console.log(formData);
     try {
       await axios
-        .post("http://localhost:8000/trainer/trainerReg", formData, {
+        .post("https://fitbet-app-api.vercel.app/trainer/trainerReg", formData, {
           headers: { "Content-Type": "multipart/form-data" },
         })
         .then((res) => {

@@ -30,7 +30,7 @@ function TrainerDash() {
   const handleOnLoad = async () => {
     try {
       // console.log("hello");
-      const result = await axios.get("http://localhost:8000/trainer/search");
+      const result = await axios.get("https://fitbet-app-api.vercel.app/trainer/search");
       setCitys(result.data.data); // Assuming your server returns an array of city names
       // console.log(result.data.data);
     } catch (error) {
@@ -41,7 +41,7 @@ function TrainerDash() {
   const getTrainers = async () => {
     try {
       const result = await axios.post(
-        "http://localhost:8000/trainer/getTrainers",
+        "https://fitbet-app-api.vercel.app/trainer/getTrainers",
         {
           city: city,
         }

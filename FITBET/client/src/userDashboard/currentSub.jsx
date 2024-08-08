@@ -13,7 +13,7 @@ function Subscription() {
       try {
         // Fetch the current subscriptions
         const response = await axios.post(
-          "http://localhost:8000/user/currentSubscriptions",
+          "https://fitbet-app-api.vercel.app/user/currentSubscriptions",
           {
             user_id: user_id,
             getReg: true,

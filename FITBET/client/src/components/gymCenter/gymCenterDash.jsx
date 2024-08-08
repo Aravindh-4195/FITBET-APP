@@ -38,7 +38,7 @@ function GymDash() {
 
   const handleOnLoad = async (event) => {
     try {
-      const result = await axios.get("http://localhost:8000/search");
+      const result = await axios.get("https://fitbet-app-api.vercel.app/search");
       setCitys(result.data.data); // Assuming your server returns an array of city names
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -51,7 +51,7 @@ function GymDash() {
         history("/login");
       }
       // console.log(localStorage.getItem(city));
-      const result = await axios.post("http://localhost:8000/gym/getGyms", {
+      const result = await axios.post("https://fitbet-app-api.vercel.app/gym/getGyms", {
         city: city,
       });
       // console.log("hello");

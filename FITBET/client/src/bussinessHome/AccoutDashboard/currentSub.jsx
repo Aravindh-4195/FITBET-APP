@@ -16,7 +16,7 @@ function GymSubscription() {
         // Fetch the current subscriptions
         // if (profile === "gym") {
         var response = await axios.post(
-          "http://localhost:8000/bussiness/currentSubscriptions",
+          "https://fitbet-app-api.vercel.app/bussiness/currentSubscriptions",
           {
             user_id: user_id,
             profile: profile,
@@ -36,7 +36,7 @@ function GymSubscription() {
 
         console.log(productIds);
         const orderResponse = await axios.post(
-          "http://localhost:8000/bussiness/currentSubscriptions",
+          "https://fitbet-app-api.vercel.app/bussiness/currentSubscriptions",
           {
             user_id: productIds,
             getReg: false,

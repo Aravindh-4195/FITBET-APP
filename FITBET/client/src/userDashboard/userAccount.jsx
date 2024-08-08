@@ -44,7 +44,7 @@ function UserAccount() {
       history("/login");
     }
     try {
-      const data = await axios.post("http://localhost:8000/user", user);
+      const data = await axios.post("https://fitbet-app-api.vercel.app/user", user);
       // console.log(data);
       setFormData(data.data.data);
       console.log(formData.name);

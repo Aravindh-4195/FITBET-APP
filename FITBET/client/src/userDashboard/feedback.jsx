@@ -29,7 +29,7 @@ function FeedBack() {
     };
     try {
       const result = await axios.post(
-        "http://localhost:8000/user/feedback",
+        "https://fitbet-app-api.vercel.app/user/feedback",
         sent_data
       );
 

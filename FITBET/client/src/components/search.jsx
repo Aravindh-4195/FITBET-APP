@@ -8,7 +8,7 @@ function Search() {
   }, []);
   const handleOnLoad = async (event) => {
     try {
-      const result = await axios.get("http://localhost:8000/search");
+      const result = await axios.get("https://fitbet-app-api.vercel.app/search");
       setCitys(result.data.data); // Assuming your server returns an array of city names
     } catch (error) {
       console.error("Error fetching data:", error);

@@ -12,7 +12,7 @@ export const Login = () => {
     const formdata = { phone: phone, password: password };
     try {
       await axios
-        .post("http://localhost:8000/login", formdata)
+        .post("https://fitbet-app-api.vercel.app/login", formdata)
         .then((res) => {
           if (res.data === "data found") {
             localStorage.setItem("user_id", phone);

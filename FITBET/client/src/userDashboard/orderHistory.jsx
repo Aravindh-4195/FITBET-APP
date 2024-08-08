@@ -13,7 +13,7 @@ function OrderHistory() {
       try {
         // Fetch the current subscriptions
         const response = await axios.post(
-          "http://localhost:8000/user/orderHistory",
+          "https://fitbet-app-api.vercel.app/user/orderHistory",
           {
             user_id: user_id,
             getReg: true,
@@ -30,7 +30,7 @@ function OrderHistory() {
 
         // console.log(productIds);
         const orderResponse = await axios.post(
-          "http://localhost:8000/user/orderHistory",
+          "https://fitbet-app-api.vercel.app/user/orderHistory",
           {
             product_id: productIds,
             getReg: false,
