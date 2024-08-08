@@ -147,7 +147,7 @@ app.post("/login", async (req, res) => {
 // trianer registration
 const storage_trainer = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "./components/trainer/uploads");
+    cb(null, "FITBET/client/src/components/trainer/uploads");
   },
   filename: function (req, file, cb) {
     const uniqueSuffix = Date.now();
