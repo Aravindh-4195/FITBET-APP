@@ -162,6 +162,7 @@ app.post(
   upload_trainer.single("photo"),
   async (req, res) => {
     // console.log(req.body);
+    console.log("hello");
     const data_trainerReg = req.body;
     data_trainerReg.photo = req.file.filename;
     // console.log(data);
